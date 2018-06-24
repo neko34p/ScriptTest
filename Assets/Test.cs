@@ -17,6 +17,9 @@ public class Test : MonoBehaviour {
 	void Start () {
 		// 課題
 		int[] points = {1,3,5,7,9};
+		for (int i = 0; i < points.Length; i++) {
+			Debug.Log (points[i]);
+		}
 		for (int i = points.Length; i > 0; i--) {
 			Debug.Log (points[i-1]);
 		}
