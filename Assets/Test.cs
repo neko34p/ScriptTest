@@ -21,7 +21,7 @@ public class Test : MonoBehaviour {
 			Debug.Log (points[i-1]);
 		}
 
-		// 発展問題
+		// 発展課題
 		int mp = 53;
 		for (int i = 0; i < 11; i++) {
 			mp = Magic (mp);
